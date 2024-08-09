@@ -8,7 +8,7 @@ public interface IProductRepository
     Task Delete(Product product, CancellationToken cancellationToken = default);
 
     // Queries.
-    Task GetAllAsync(CancellationToken cancellationToken = default);
-    Task GetByIdAsync(Guid id, CancellationToken cancellationToken = default);
-    Task GetByName(string name, CancellationToken cancellationToken = default);
+    Task<List<Product>> GetAllAsync(CancellationToken cancellationToken = default);
+    Task<Product?> GetByIdAsync(Guid id, CancellationToken cancellationToken = default);
+    Task<List<Product>> GetByName(string name, CancellationToken cancellationToken = default);
 }
