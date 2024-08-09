@@ -3,25 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackEnd.API", "BackEnd.API\BackEnd.API.csproj", "{137D63B9-8FB8-4095-A8B1-AFA2A5302DCF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackEnd.API", "src\BackEnd.API\BackEnd.API.csproj", "{137D63B9-8FB8-4095-A8B1-AFA2A5302DCF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackEnd.Application", "BackEnd.Application\BackEnd.Application.csproj", "{CA677D5B-16B1-4FA6-829C-DEBCB0FF1969}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackEnd.Application", "src\BackEnd.Application\BackEnd.Application.csproj", "{CA677D5B-16B1-4FA6-829C-DEBCB0FF1969}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackEnd.Domain", "BackEnd.Domain\BackEnd.Domain.csproj", "{3D91BB53-D25D-4F4F-9959-2D3D322803AC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackEnd.Domain", "src\BackEnd.Domain\BackEnd.Domain.csproj", "{3D91BB53-D25D-4F4F-9959-2D3D322803AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackEnd.Infrastructure", "BackEnd.Infrastructure\BackEnd.Infrastructure.csproj", "{1871502A-157B-40FF-8D01-A7DE5B2371C7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackEnd.Infrastructure", "src\BackEnd.Infrastructure\BackEnd.Infrastructure.csproj", "{1871502A-157B-40FF-8D01-A7DE5B2371C7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B959E1D4-821F-45CA-8B56-3CAC8A4B33E1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{C98E6E49-A12C-49B5-B81A-167D1AAC8ED2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackEnd.API.Test", "BackEnd.API.Test\BackEnd.API.Test.csproj", "{7C2F558C-B02C-4CA4-920C-9281AB12A3D1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackEnd.API.Test", "test\BackEnd.API.Test\BackEnd.API.Test.csproj", "{7C2F558C-B02C-4CA4-920C-9281AB12A3D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackEnd.Application.Test", "BackEnd.Application.Test\BackEnd.Application.Test.csproj", "{0E6AB73B-7FFC-451A-A14C-C835DE387473}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackEnd.Application.Test", "test\BackEnd.Application.Test\BackEnd.Application.Test.csproj", "{0E6AB73B-7FFC-451A-A14C-C835DE387473}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackEnd.Infrastructure.Test", "BackEnd.Infrastructure.Test\BackEnd.Infrastructure.Test.csproj", "{968FF2CC-7319-4EBF-8D21-FB1B636AB4E1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackEnd.Infrastructure.Test", "test\BackEnd.Infrastructure.Test\BackEnd.Infrastructure.Test.csproj", "{968FF2CC-7319-4EBF-8D21-FB1B636AB4E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackEnd.Domain.Test", "BackEnd.Domain.Test\BackEnd.Domain.Test.csproj", "{FD38CC46-854C-41AF-B009-130AA34484FA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackEnd.Domain.Test", "test\BackEnd.Domain.Test\BackEnd.Domain.Test.csproj", "{FD38CC46-854C-41AF-B009-130AA34484FA}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{9955F934-C796-48FF-9196-D925366C339F}"
 EndProject
