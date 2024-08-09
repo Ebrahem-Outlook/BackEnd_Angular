@@ -6,3 +6,31 @@ services:
     build:
       context: .
       dockerfile: BackEnd.API/Dockerfile
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__DefaultConnection=Host=postgres;Database=Angular_DB;Username=Ebrahem_Outlook;Password=Ebrahem0123
+      - ConnectionStrings__RedisConnection=redis:6379
+    depends_on:
+      - postgres
+      - redis
+    ports:
+      - "8080:80"
+
+  postgres:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: your_db_user
+      POSTGRES_PASSWORD: your_db_password
+      POSTGRES_DB: your_db_name
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+  redis:
+    image: redis:7
+    ports:
+      - "6379:6379"
+
+volumes:
+  postgres_data:
