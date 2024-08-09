@@ -20,7 +20,6 @@
   <ItemGroup>
     <Folder Include="Products\Events\ProductDeleted\" />
     <Folder Include="Products\Events\ProductUpdated\" />
-    <Folder Include="Products\Events\ProductCreated\" />
   </ItemGroup>
 
 </Project>

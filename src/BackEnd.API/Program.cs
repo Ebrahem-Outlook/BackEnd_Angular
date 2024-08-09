@@ -1,3 +1,4 @@
+using BackEnd.Application;
 using BackEnd.Infrastructure;
 
 namespace BackEnd.API;
@@ -14,7 +15,8 @@ public class Program
         // Add services to the container.
 
         builder.Services.AddControllers();
-        builder.Services.AddInfrastructure(configuration);
+        builder.Services.AddApplicationLayer();
+        builder.Services.AddInfrastructureLayer(configuration);
 
         // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
         builder.Services.AddEndpointsApiExplorer();

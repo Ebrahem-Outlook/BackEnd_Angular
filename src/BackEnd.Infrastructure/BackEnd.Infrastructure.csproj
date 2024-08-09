@@ -15,4 +15,8 @@
     <ProjectReference Include="..\BackEnd.Application\BackEnd.Application.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Messaging\Settings\" />
+  </ItemGroup>
+
 </Project>
